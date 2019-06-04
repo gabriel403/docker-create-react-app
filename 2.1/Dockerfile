@@ -5,6 +5,6 @@ RUN mkdir -p ${appDir}
 
 WORKDIR ${appDir}
 
-RUN npm install -g create-react-app@2.0.4
+RUN npm install -g create-react-app@2.1.8
 
 CMD ["create-react-app"]
